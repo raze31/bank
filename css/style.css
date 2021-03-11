@@ -1,0 +1,176 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+}
+html, body{
+	padding: 0;
+	margin: 0;
+	color: #ebebeb;
+	overflow: hidden;
+}
+.head{
+	position: relative;
+	background-color: #4CAF50; 
+	height: 80px;
+	width: 100%;
+}
+div .headfont{
+	font-family:cursive; 
+	font-size: 35px; 
+	color: white; 
+  margin-left:50px;
+}
+.content{
+	align-items: center;
+	justify-content: center;
+	background-color: lightblue;
+	position: relative;
+	height: 100vh;
+	overflow: scroll;
+}
+.content2{
+  align-items: center;
+  justify-content: center;
+  background-image: url('../img/background.jpg');
+  position: relative;
+  height: 100vh;
+  overflow: scroll;
+  background-size: 100
+}
+
+.regform{
+	width:70%;
+	background-color: gray;
+	margin-left: 15%;
+  margin-right: 15%;
+	margin-top: 30px;
+}
+.logform{
+	width:30%;
+	background-color: gray;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 10%;;
+}
+
+/* Register and Login Style */
+  input[type=text],input[type=password],input[type=date], input[type=Numbers] {
+  width: 40%;
+  padding: 15px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,input[type=password]:focus,input[type=date]:focus,input[type=Numbers]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+select:focus{
+	background-color: #ddd;
+  	outline: none;
+}
+select{
+	margin:5px;
+	width: 225px;
+	height: 45px;
+	background-color:#d4e1cc;
+	font-weight: bold;
+}
+label{
+	margin-left: 5px;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Admin Avatar*/
+.admin_imgcontainer {
+  float: left;
+  margin-top: 20px;
+  margin-left: 40px;
+
+}
+/* Avatar image */
+img.avatar2 {
+  width: 300px;
+ height:300px;
+ margin-right: 44px;
+  
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+} 
+.cancelbtn{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.reglink{
+  text-decoration: none;
+  padding: 20 20;
+  
+
+}
